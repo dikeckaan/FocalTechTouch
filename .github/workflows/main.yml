@@ -11,7 +11,7 @@ jobs:
         platform: [arm64]
     runs-on: windows-2022
     env:
-      Solution_Path: contrib\FocalTechTouch.sln
+      Solution_Path: FocalTechTouch\contrib\FocalTechTouch.sln
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
