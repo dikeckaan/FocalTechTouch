@@ -2,7 +2,7 @@ name: Build driver solution
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     strategy:
